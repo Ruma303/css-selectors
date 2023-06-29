@@ -1,0 +1,105 @@
+/*
+.my-paragraph {
+   color: red !important;
+}
+ */
+
+/* .my-paragraph {
+  color: #f60;
+} */
+
+/* p {
+  color: blue;
+} */
+
+/*
+p {
+   color: #f60;
+}
+*/
+
+
+/*
+p.my-paragraph{
+   background-color: aquamarine;
+}
+*/
+/*
+.class1.class2.class3 {
+   color: rebeccapurple;
+   font-size: 2rem;
+   font-weight: 700;
+}
+ */
+/* #title-h3 {
+  color: rgb(97, 0, 63);
+} */
+
+/* input[type="text"] {
+  border: 10px solid palevioletred;
+} */
+
+
+/* ol li {
+   list-style-type:georgian;
+}
+ */
+
+/* ul > li {
+   color: darkred;
+} */
+
+/* ul li {
+   color: darkred;
+} */
+
+/* ul > ol > li {
+   color: darkred;
+} */
+
+/*
+li + ol {
+   color: blue;
+}
+ */
+
+/* ul,
+li + ol {
+   color: blue;
+}
+ */
+
+
+/*
+h3 ~ span {
+   background-color: springgreen;
+} */
+/*
+[href="!"] {
+   color: chocolate;
+} */
+
+/* [href~="cosa"] {
+   color: chocolate;
+} */
+
+/*
+[lang|="en"] {
+   color: chocolate;
+} */
+
+/*
+[href^="#"] {
+   color: chocolate;
+} */
+
+/*
+[lang$="US"] {
+   color: chocolate;
+}
+ */
+
+/*
+[href*="q"] {
+   color: chocolate;
+} */
