@@ -19,6 +19,8 @@
    </p>
    <h3 id="title-h3">Elemento con id</h3>
 
+
+
    <code class="class1 class2 class3">Code</code>
 
    <ul>
@@ -32,6 +34,18 @@
          <li>Quarto</li>
       </ol>
    </ul>
+
+   <article>
+      <h3>Titolo paragrafo</h3>
+      <p>Contenuto selezionato</p>
+   </article>
+   <article>
+      <p>Contenuto selezionato</p>
+   </article>
+   <article>
+      <p>Contenuto non selezionato</p>
+      <p>Contenuto non selezionato</p>
+   </article>
 
    <div>
       <h3>Paragrafo 1</h3>
@@ -47,12 +61,36 @@
    </div>
 
 
-   <input type="text">
-   <input type="email">
+   <input type="text" placeholder="Input testuale" required>
+   <input type="email" placeholder="Input email" disabled>
 
-   <a href="#" lang="en-US">Link 1</a>
-   <a href="!">Link 2</a>
-   <a href="# qualsiasi cosa">Link 3</a>
+   <div>
+      <a href="#" lang="en-US">Link 1</a>
+      <a href="!">Link 2</a>
+      <a href="# qualsiasi cosa">Link 3</a>
+      <button type="button">Bottone</button>
+   </div>
 
+
+   <form>
+      <div>
+         <label for="opt1">Opzione 1</label>
+         <input type="checkbox" name="check-group" id="opt1" value="1">
+         <label for="opt2">Opzione 2</label>
+         <input type="checkbox" name="check-group" id="opt2" value="2">
+      </div>
+      <div>
+         <label for="opt1">Opzione 1</label>
+         <input type="radio" name="radio-group" id="opt1" value="1">
+         <label for="opt2">Opzione 2</label>
+         <input type="radio" name="radio-group" id="opt2" value="2">
+      </div>
+   </form>
+
+   <input type="number" id="range" min="20" max="80">
+
+   <textarea cols="10" rows="1" readonly>Text Area</textarea>
+
+   <footer></footer>
 </body>
 </html>

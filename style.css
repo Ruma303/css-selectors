@@ -1,3 +1,9 @@
+/*! Non cancellare! */
+footer {
+   height: 50vh;
+}
+
+/*% Selettori */
 /*
 .my-paragraph {
    color: red !important;
@@ -103,3 +109,190 @@ h3 ~ span {
 [href*="q"] {
    color: chocolate;
 } */
+
+
+
+
+/*% Pseudoclassi */
+
+/* [href="!"]:hover {
+   color: green;
+} */
+
+/* button[type="button"]:active {
+   color: dodgerblue;
+} */
+
+/* [href="#"]:visited {
+   color: lime;
+} */
+
+/* input[type="checkbox"]:checked {
+   cursor: pointer;
+   width: 30px;
+   height: 30px;
+} */
+
+/*
+input[type="email"]:focus {
+   background-color: red;
+} */
+
+/* label:not([for="opt1"]) {
+   color: lightseagreen;
+} */
+
+/* li:first-of-type {
+   color: mediumpurple;
+} */
+
+/* ul > li:first-child {
+   color: hotpink;
+} */
+
+
+/*
+li:nth-of-type(2) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:nth-of-type(2n) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:nth-of-type(1n+3) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:nth-of-type(odd) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:nth-last-child(3) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:nth-last-of-type(4) {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:last-of-type {
+   font-weight: bold;
+   color: red;
+} */
+
+/* li:last-child {
+   font-weight: bold;
+   color: red;
+} */
+
+/* article > p:only-child {
+   background-color: darkgoldenrod;
+} */
+
+/* p:only-of-type {
+   background-color: darkgoldenrod;
+} */
+
+/* a:link {
+   background-color: lightcyan;
+} */
+
+/* input:empty {
+   border: 5px solid greenyellow;
+} */
+
+/* input:enabled {
+   background-color: chartreuse;
+} */
+/* input:disabled {
+   background-color: red;
+} */
+
+/* label:lang(en) {
+   color: #f60;
+} */
+
+/* :root {
+   background-color: beige;
+} */
+/*
+input:required {
+   background-color: #f60;
+} */
+
+/* input:optional {
+   border: 5px solid salmon;
+} */
+/*
+input[type="number"]:in-range {
+   border: 2px solid green;
+}
+
+input[type="number"]:out-of-range {
+   border: 2px solid red;
+} */
+
+/* input:indeterminate {
+   outline: solid thin blueviolet;
+} */
+/*
+textarea:read-only {
+   font-style: italic;
+} */
+
+/* input:read-write {
+   border: solid 3px greenyellow;
+} */
+
+/* input:valid {
+   border: solid 3px green;
+}
+input:invalid {
+   border: solid 3px red;
+} */
+
+
+/*% Pseudo-elementi */
+
+/* div > h3::before {
+   content: "★";
+   margin-right: 4px;
+   color: #f90;
+} */
+
+/* div > h3::after {
+   content: "★";
+   margin-left: 4px;
+   color: #f90;
+} */
+
+/* ul > li::marker {
+   color: rgb(219, 175, 0);
+} */
+
+/* input::placeholder {
+   color: red;
+} */
+
+/* ::selection {
+   background-color: lightblue;
+   color: darkblue;
+} */
+
+/* p::first-line {
+   text-decoration: overline;
+} */
+
+/* p::first-letter {
+   font-weight: 600;
+   font-style: italic;
+   font-size: larger;
+} */
+
