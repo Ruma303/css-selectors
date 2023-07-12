@@ -4,19 +4,36 @@ footer {
 }
 
 /*% Selettori */
-/*
-.my-paragraph {
-   color: red !important;
-}
- */
 
-/* .my-paragraph {
-  color: #f60;
+/* * {
+    color:blue;
 } */
 
 /* p {
-  color: blue;
+  color: green;
 } */
+
+/* .my-paragraph {
+    color: #f60;
+} */
+
+/* #title-h3 {
+    color: hotpink;
+} */
+
+/* [href] {
+    background-color: aqua;
+    text-decoration: none;
+} */
+
+/* .my-paragraph {
+    color: red !important;
+ } */
+
+/* .class0 {
+    background-color: yellow;
+} */
+
 
 /*
 p {
@@ -25,63 +42,66 @@ p {
 */
 
 
-/*
-p.my-paragraph{
+
+/* Combo di selettori */
+
+
+/* p.my-paragraph{
    background-color: aquamarine;
-}
-*/
-/*
-.class1.class2.class3 {
+} */
+
+
+/* .pippo.pluto.paperino {
    color: rebeccapurple;
    font-size: 2rem;
    font-weight: 700;
 }
  */
-/* #title-h3 {
-  color: rgb(97, 0, 63);
+
+/* ol li {
+   list-style-type:georgian;
+   background-color: chartreuse;
 } */
+
+
+/* ul > li {
+   color: blue;
+} */
+
+/* ul li {
+    color: darkred;
+ } */
+
+/* ul > ol > li {
+   color: hotpink;
+} */
+
+
+/* ul > li + ol {
+   color: blue;
+} */
+
+
+/* .class3,
+.my-paragraph,
+[href], ul, li + ol {
+   color: blue;
+} */
+
+
+/* h3 ~ span {
+   background-color: springgreen;
+} */
+
+
+/* Attributi */
 
 /* input[type="text"] {
   border: 10px solid palevioletred;
 } */
 
 
-/* ol li {
-   list-style-type:georgian;
-}
- */
-
-/* ul > li {
-   color: darkred;
-} */
-
-/* ul li {
-   color: darkred;
-} */
-
-/* ul > ol > li {
-   color: darkred;
-} */
-
-/*
-li + ol {
-   color: blue;
-}
- */
-
-/* ul,
-li + ol {
-   color: blue;
-}
- */
-
-
-/*
-h3 ~ span {
-   background-color: springgreen;
-} */
-/*
-[href="!"] {
+/* [href="!"] {
    color: chocolate;
 } */
 
@@ -89,24 +109,24 @@ h3 ~ span {
    color: chocolate;
 } */
 
-/*
-[lang|="en"] {
+
+/* [lang|="it"] {
    color: chocolate;
 } */
 
-/*
-[href^="#"] {
+
+/* [href^="#"] {
    color: chocolate;
 } */
 
-/*
-[lang$="US"] {
+
+/* [lang$="IT"] {
    color: chocolate;
 }
  */
 
-/*
-[href*="q"] {
+
+/* [href*="i"] {
    color: chocolate;
 } */
 
